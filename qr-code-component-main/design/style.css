@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D5E1EF;
+}
+
+.QR-Description{
+    margin: 50% auto;
+    width: 70%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.qr-code-container{
+    background-image: url("/qr-code-component-main/images/image-qr-code.png");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 5rem;
+    border-radius: 0.5rem;
+}
+
+h1{
+    font-family: outfit;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0.7rem 0;
+}
+
+p{
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 12px;
+    color: #68778D;
+}
+
+@media screen and ( min-width: 768px ) {
+    .QR-Description{
+        width: 50%;
+        padding: 2%;
+        margin: 30% auto;
+    }
+
+    .qr-code-container{
+        padding: 10rem 5rem;
+    }
+
+    h1{
+        font-size: 24px;
+        padding: 0.5rem 2rem;
+    }
+
+    p{
+        font-size: 16px;
+        padding: 0.5rem 2rem;
+    }
+
+    div{
+        font-size: 14px;
+    }
+}
+
+@media screen and ( min-width: 768px ) {
+    .QR-Description{
+        width: 30%;
+        padding: 2%;
+        margin: 5% auto;
+    }  
+
+    .qr-code-container{
+        padding: 10rem 2.5rem;
+        border-radius: 0.8rem;
+    }
+
+    h1{
+        font-size: 24px;
+        padding: 0.5rem 2rem;
+    }
+
+    p{
+        font-size: 16px;
+        padding: 0.5rem 2rem;
+    }
+
+    div{
+        font-size: 10px;
+    }
+}
